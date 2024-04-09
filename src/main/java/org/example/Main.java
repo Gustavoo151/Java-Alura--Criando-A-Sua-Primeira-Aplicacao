@@ -16,5 +16,9 @@ public class Main {
         String sinopse;
         sinopse = "Filme de aventura com galãm dos anos 80";
         System.out.println(sinopse);
+
+        int classificacao;
+        classificacao = (int) (media/2);  // Isso é usado para fazer o casting da valores nesse caso estamos transformando um double em um int
+        System.out.println("Classificação: " + classificacao);
     }
 }
